@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <!-- <img src="./assests/detailed-chef-logo-template_23-2148986823-removebg-preview.png" width="200px" alt=""> -->
+      <ul class="nav-menu">
+        <div class="logo">
+          <img class="logo_image" src="logo.png" alt="">
+          <p class="logo_txt">Fresh Bites</p>
+        </div>
+        <p class="description"> Where Culinary Art Meets Nature's Bounty. Immerse  yourself in a symphony of flavors, <br> meticulously crafted with the freshest ingredients, promising a culinary <br>journey that delights the senses and elevates every bite  to a masterpiece <br> of taste and freshness  </p>
+     
+      </ul>
+    </div>
+  </nav>
+  
+ <div class="search_div">
+  <input id="searchInput" type="text" placeholder="Search food ">
+  <button id="searchButton">search</button>
+ </div>
+  <!-- <p>here</p> -->
+   
+    <p class="todaySpecial">Chef's Pick</p>
+  
+  <div class="random">
+    <div id="randomfood"></div> <!-- For showing Random food -->
+    <img class="side_image" src="elements.png"  alt="">
+  </div>
+
+  <p id="popular">Popular Search Results</p>
+  <!-- Results section -->
+  <section id="results">
+    <div class="results">
+      <!-- <img src="elements.png" alt="Results Image"> -->
+    </div>
+    <div>
+      <div id="food"></div> <!-- For showing search Results -->
+    </div>
+  </section>
+
+  <div id="ingredients_blur_div">
+    <div id="ingredients"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
